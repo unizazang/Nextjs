@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  background: #9b9b9b;
+  color: white;
+}
+.navbar {
+  background: white;
+  padding: 20px;
+  color: #000;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+} 
+
+.food {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+} 
+
+.cart-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
+} 
